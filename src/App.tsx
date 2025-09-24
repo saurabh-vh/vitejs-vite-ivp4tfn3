@@ -12,7 +12,7 @@ import { Leva, useControls } from 'leva';
 import { useState } from 'react';
 
 const urls = [
-  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/gs_3d_vista/wasl_splat.splat',
+  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/gs_3d_vista/Sattvasplat.splat',
 ];
 
 function App() {
@@ -82,10 +82,10 @@ function App() {
 
         <OrbitControls />
 
-        <Box position={[-1, 0, 0]} />
-        <Box position={[1, 0, 0]} />
+        {/* <Box position={[-1, 0, 0]} />
+        <Box position={[1, 0, 0]} /> */}
 
-        <OrbitingSuzi />
+        {/* <OrbitingSuzi /> */}
 
         <group position={[0, 0, 0]}>
           <Splat url={url} maxSplats={effectiveSplats} />
