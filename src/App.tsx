@@ -12,7 +12,7 @@ import { Leva, useControls } from 'leva';
 import { useState } from 'react';
 
 const urls = [
-  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/gs_3d_vista/Sattvasplat.splat',
+  'https://virtual-homes.s3.ap-south-1.amazonaws.com/SignatureGlobal/TwinTowerDXP/largefile1splat.splat'
 ];
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       label: 'Degrade splat count based on perf.',
       value: false,
     },
-    maxSplats: { label: 'Max splat count', value: 10000000 },
+    maxSplats: { label: 'Max splat count', value: 10000000000 },
   });
 
   // Performance factor
