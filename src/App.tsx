@@ -5,9 +5,9 @@ import {
   StatsGl,
 } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { Box } from './box';
+
 import { Splat } from './splat-object';
-import { OrbitingSuzi } from './suzi';
+
 import { Leva, useControls } from 'leva';
 import { useState } from 'react';
 
@@ -82,10 +82,7 @@ function App() {
 
         <OrbitControls />
 
-        {/* <Box position={[-1, 0, 0]} />
-        <Box position={[1, 0, 0]} /> */}
 
-        {/* <OrbitingSuzi /> */}
 
         <group position={[0, 0, 0]}>
           <Splat url={url} maxSplats={effectiveSplats} />
