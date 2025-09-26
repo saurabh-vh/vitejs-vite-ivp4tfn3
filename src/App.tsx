@@ -12,7 +12,7 @@ import { Leva, useControls } from 'leva';
 import { useState } from 'react';
 
 const urls = [
-  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/SOGS_compression/Sattvasplat.splat'
+  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/gs_3d_vista/Sattva+City_Fog.splat'
 ];
 
 function App() {
