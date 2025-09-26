@@ -12,7 +12,7 @@ import { Leva, useControls } from 'leva';
 import { useState } from 'react';
 
 const urls = [
-  'https://virtual-homes.s3.ap-south-1.amazonaws.com/SignatureGlobal/TwinTowerDXP/largefile1splat.splat'
+  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/SOGS_compression/Sattvasplat.splat'
 ];
 
 function App() {

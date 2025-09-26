@@ -1,6 +1,6 @@
 const CACHE_NAME = 'splat-cache-v1';
 const PRECACHE_URLS = [
-  'https://virtual-homes.s3.ap-south-1.amazonaws.com/SignatureGlobal/TwinTowerDXP/largefile1splat.splat'
+  'https://virtual-homes.s3.ap-south-1.amazonaws.com/VirtualHomes/SOGS_compression/Sattvasplat.splat'
 ];
 
 self.addEventListener('install', (event) => {
